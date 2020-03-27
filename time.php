@@ -19,12 +19,12 @@ function romaTime() {
 <title>課題20</title>
 </head>
 <body>
-<h1>日本とシンガポールとイタリアの現在日時</h1>
-<p>日本の現在日時</p>
+<h1>東京とシンガポールとローマの現在日時</h1>
+<p>東京の現在日時</p>
 <p><?php tokyoTime(); ?></p>
 <p>シンガポールの現在日時</p>
 <p><?php singaporeTime(); ?></p>
-<p>イタリアの現在日時</p>
+<p>ローマの現在日時</p>
 <p><?php romaTime(); ?></p>
 </body>
 </html>
