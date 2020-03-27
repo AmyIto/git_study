@@ -8,9 +8,9 @@
 <body>
 <p>2から150までの偶数</p>
 <?php
-while($i <= 150){
-	echo $i.'<br>';
-	$i +=2;
+while ($i <= 150) {
+	echo $i . '<br>';
+	$i += 2;
 }
 ?>
 
