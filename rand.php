@@ -1,12 +1,14 @@
 <?php
-$n = mt_rand(1, 3);
+$n = mt_rand(1, 4);
 
 if ($n === 1) {
 	$message = 'GitHubの勉強中です';
 } elseif ($n === 2) {
 	$message = 'PHPの勉強中です';
-} else {
+} elseif ($n === 3) {
 	$message = '次はCakePHPです';
+} else {
+	$message = 'Laravelも勉強します';
 }
 
 ?>
