@@ -7,6 +7,10 @@ function singaporeTime() {
 	date_default_timezone_set('Asia/Singapore');
 	echo date('Y/m/d H:i');
 }
+function romaTime() {
+	date_default_timezone_set('Europe/Rome');
+	echo date('Y/m/d H:i');
+}
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -20,5 +24,7 @@ function singaporeTime() {
 <p><?php tokyoTime(); ?></p>
 <p>シンガポールの現在日時</p>
 <p><?php singaporeTime(); ?></p>
+<p>イタリアの現在日時</p>
+<p><?php romaTime(); ?></p>
 </body>
 </html>
