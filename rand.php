@@ -1,5 +1,5 @@
 <?php
-$n = mt_rand(1, 5);
+$n = mt_rand(1, 6);
 
 if ($n === 1) {
 	$message = 'GitHubの勉強中です';
@@ -9,8 +9,10 @@ if ($n === 1) {
 	$message = '次はCakePHPです';
 } elseif ($n === 4) {
 	$message = 'Laravelも勉強します';
-} else {
+} elseif ($n === 5) {
 	$message = 'プロサーは面白いです';
+} else {
+	$message = '寿司打を練習します';
 }
 
 ?>
